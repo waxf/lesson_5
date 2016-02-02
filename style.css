@@ -1,0 +1,112 @@
+
+body {
+   margin: 0px;
+}
+
+#main {
+   width: 751px;
+   margin: 0px auto;
+}
+
+table, td {
+   border-spacing: 0px;
+   border-collapse: collapse;
+   padding: 0px;
+
+}
+
+#header {
+   background-image: url(img/header.jpg);
+   height: 125px;
+}
+
+#logo {
+   margin-left: 30px;
+}
+
+#menu {
+   background-image: url(img/bg_menu.jpg);
+   height: 41px;
+}
+
+#menu ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   height: 41px;
+}
+#menu ul li {
+   display: inline-block;
+   height: 41px;
+   text-align: center;
+}
+
+#menu ul li a {
+   text-decoration: none;
+   color: black;
+   height: 41px;
+   vertical-align: middle;
+   position: relative;
+   display: inline-block;
+   padding: 0 1em;
+   top: -0.3em;
+}
+#menu ul li:after{
+   content: url(img/sep_menu.jpg)
+}
+
+#left {
+   background-image: url(img/bg_left.jpg);
+   width: 187px;
+   height: 650px;
+}
+#left ul {
+   list-style-image: url(img/marker_left.jpg)
+}
+#left ul li {
+
+   text-align: left;
+}
+#left ul li a {
+   text-decoration:none;
+   color: floralwhite;
+}
+
+#content {
+   background-image: url(img/bg_content.jpg);
+   width: 564px;
+   height: 650px;
+}
+
+#footer {
+   background-image: url(img/bg_footer.jpg);
+   width: 751px;
+   height: 78px;
+}
+
+#footer ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   height: 78px;
+}
+
+#footer ul li {
+   display: inline-block;
+   height: 78px;
+   text-align: center;
+}
+
+#footer ul li a {
+   text-decoration: none;
+   color: black;
+   height: 20px;
+   vertical-align: middle;
+   position: relative;
+   display: inline-block;
+   padding: 0 1em;
+   top: 1.3em;
+   left: 190px;
+
+}
+
